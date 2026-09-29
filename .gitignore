@@ -1,0 +1,41 @@
+## Build & Runtime Results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Tt]est[Rr]esults/
+artifacts/
+publish/
+
+## Visual Studio, Rider & IDEs
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+*.sln.iml
+
+## Secrets & Local Environment Configs
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+secrets.json
+
+## Uploaded & Runtime User Storage
+uploads/
+storage/
+*.log
+
+## OS & Temporary Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+*.tmp
+*~
+
